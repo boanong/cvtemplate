@@ -188,19 +188,18 @@ footer {
   .whole {
     grid-template-columns: 1fr;
     width: 95vw;
-}
+  }
 
-.right-top-container {
+  .right-top-container {
     width: 100%;
-}
+  }
 
-.card {
+  .card {
     width: 100%;
-}
-.right-buttom-container {
+  }
+
+  .right-buttom-container {
     width: 100%;
-}
+  }
 
 }
-
-
