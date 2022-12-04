@@ -185,7 +185,7 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  .whole {
+  .-whole {
     grid-template-columns: 1fr;
     width: 95vw;
   }
@@ -201,5 +201,4 @@ footer {
   .right-buttom-container {
     width: 100%;
   }
-
 }
