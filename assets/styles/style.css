@@ -162,7 +162,7 @@ footer {
 }
 
 .graphic {
-  color: rgb(118, 100, 100) ;
+  color: rgb(118, 100, 100);
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
 }
@@ -179,11 +179,10 @@ footer {
 .icons {
   display: flex;
   flex-direction: row;
-  gap: .5%;
+  gap: 0;
   justify-content: center;
   margin: 0 auto;
 }
-
 
 @media only screen and (max-width: 600px) {
 .whole {
@@ -203,4 +202,5 @@ footer {
 }
 
 }
+
 
