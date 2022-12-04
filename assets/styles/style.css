@@ -152,7 +152,7 @@ footer {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: rgb(126, 115, 115);
+  color: #7e7373;
 }
 
 .percentages {
@@ -162,7 +162,7 @@ footer {
 }
 
 .graphic {
-  color: rgb(118, 100, 100);
+  color: #766464;
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
 }
@@ -172,7 +172,7 @@ footer {
   margin-top: auto;
 }
 
-.power a { 
+.power a {
   color: #fff;
 }
 
@@ -185,20 +185,20 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-.whole {
-  grid-template-columns: 1fr;
-  width: 95vw;
+  .whole {
+    grid-template-columns: 1fr;
+    width: 95vw;
 }
 
 .right-top-container {
-  width: 100%
+    width: 100%;
 }
 
 .card {
-  width: 100%;
+    width: 100%;
 }
 .right-buttom-container {
-  width: 100%;
+    width: 100%;
 }
 
 }
