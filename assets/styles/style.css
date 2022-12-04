@@ -1,42 +1,55 @@
 body {
-  font-family:Arial, Helvetica, sans-serif ;
-  margin: 1%;
-  grid-template-columns: auto;
+  font-family: Arial, Helvetica, sans-serif ;
+  margin: 0;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  height: 32cm;
-  width: 32.5%;
-  background-color: rgb(184, 144, 221);
+.whole {
+  width: 98vw;
+  max-width: 1224px;
+  display: grid;
+  grid-template-columns: auto 65%;
+  margin: 1rem auto;
+  gap: 2rem;
 }
 
-.card:hover {
+.left-side {
+  box-shadow: 0 4px 8px 0 #808080;
+  width: 100%;
+  height: fit-content;
+}
+
+
+.left-side:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.line {
+hr {
+  width: 100%;
   background-color: #dcd7ee;
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 0px 16px 20px;
 }
 
 .w3-progress-container{width:100%;height:1.5em;position:relative;background-color:#f1f1f1}
 .w3-progressbar{background-color:#757575;height:100%;position:absolute;line-height:inherit}
 .w3-round-xlarge{border-radius:16px!important}
 
+
+
+.right-side {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
 .right-top-container {
-  height: 17cm;
-  width: 66%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: fit-content;
+  width: 100%;
+  box-shadow: 0 0 10px #808080;
   display: block;
-  margin-top: -32.7cm;
-  margin-left: auto;
   line-height: 1.5;
-  background-color: coral;
 }
 
 .stack {
@@ -59,25 +72,24 @@ body {
 .consectetur {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .graphic {
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
 }
 
 .right-buttom-container {
-  height: 16cm;
-  width: 66%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin-left: auto;
-  background-color: aqua;
-  margin-top: 1%;
-
+  height: fit-content;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 #808080;
+  margin-top: 2rem;
 }
+
 .address {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(115, 100, 100);
-
 }
+
 .second-site {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -123,8 +135,10 @@ footer {
   color: rgb(126, 115, 115);
 }
 
-.right-content{
-  margin-left: 3%;
+.content{
+  width: 96%;
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 .stack {
@@ -169,10 +183,6 @@ mark {
   color:rgb(118, 100, 100) ;
 }
 
-.b-content {
-  margin-left: 3%;
-}
-
 .footer-content {
   align-items: center;
   margin-top: auto;
@@ -191,20 +201,14 @@ mark {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+  .whole {
+    grid-template-columns: 1fr;
+    width: 95vw;
+  }
+  
  .right-top-container {width: 100%}
  .card {width: 100%;}
  .right-buttom-container {width: 100%;}
 
 }
-
-@media only screen and (max-width: 768px) {
-  .left-side {
-  width: 100%;
-  }
-  .card {
-    width: 100%;
-  }
-  
-}
-
