@@ -5,7 +5,7 @@ body {
 
 .whole {
   width: 98vw;
-  max-width: 1224px;
+  max-width: 1225px;
   display: grid;
   grid-template-columns: auto 65%;
   margin: 1rem auto;
