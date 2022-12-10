@@ -4,7 +4,7 @@
 BOANONG JOSHUA
 [@boanong](https://github.com/boanong)
 
-# OVERVIEW
+## OVERVIEW
   ![home page](assets/image/overview.png)
 
 
@@ -21,14 +21,14 @@ This is a cv project taken as a learning tutorial to help build my HTML and CSS 
 
  you should have Knowledge about:
 
-- Github
+- GitHub
 - CSS grids and flex box
 - and an available working browser
 
 ## Clone project
 
 - To get a local copy, follow these simple example steps.
-- Clone this repository with `https://github.com/boanong/wedding-template` using your terminal or command line.
+- Clone this repository with `https://github.com/boanong/wedding-template` using your terminal or command-line.
 
 ## Command-line steps
 
