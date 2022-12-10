@@ -1,6 +1,6 @@
 # CV TEMPLATE
 
-# AUTHOR
+## AUTHOR
 BOANONG JOSHUA
 [@boanong](https://github.com/boanong)
 
@@ -10,11 +10,11 @@ BOANONG JOSHUA
 
 ## About
 
-This is a cv project taken as a learning tutorial to help build my html and css skills..
+This is a cv project taken as a learning tutorial to help build my HTML and CSS skills..
 
 ## Built With
   this project was built with
-- Html
+- HTML
 - and CSS
 
 ### Prerequisites
@@ -22,7 +22,7 @@ This is a cv project taken as a learning tutorial to help build my html and css 
  you should have Knowledge about:
 
 - Github
-- css grids and flex box
+- CSS grids and flex box
 - and an available working browser
 
 ## Clone project
@@ -30,7 +30,7 @@ This is a cv project taken as a learning tutorial to help build my html and css 
 - To get a local copy, follow these simple example steps.
 - Clone this repository with `https://github.com/boanong/wedding-template` using your terminal or command line.
 
-## Command line steps
+## Command-line steps
 
 - $ `git clone git@github.com:boanong/wedding-template.git`
 - $ `cd wedding-template`
